@@ -1,0 +1,51 @@
+body {
+  background-image:url('../images/rpsBack.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+div.panel-body.chat {
+  text-align: left;
+  height: 300px;
+}
+.panel-body {
+  height: 120px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.startGame {
+  margin-bottom: 20px;
+}
+
+.status {
+  margin-bottom: 20px;
+}
+
+.devideChat {
+  height: 100px;
+}
+
+.active {
+  border-width: 3px;
+  border-color: rgb(245,117,117);
+}
+
+.messageUserOne {
+  color: rgb(55,182,235);
+}
+.messageUserTwo {
+  color: rgb(249,181,52);
+}
